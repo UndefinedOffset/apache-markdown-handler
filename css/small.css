@@ -1,0 +1,4 @@
+@media screen and (max-width: 540px) {
+    table td, table th { position: relative; white-space: nowrap; overflow: hidden; }
+    table th:first-child, table td:first-child, table td:first-child, .pinned table td { display: none; }
+}

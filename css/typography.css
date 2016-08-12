@@ -1,0 +1,229 @@
+/*! text selection */
+::-moz-selection {    
+    text-shadow:none;
+    color: #ffffff;
+    background: #1389CE;
+}
+
+::selection {     
+    text-shadow: none;
+    color: #ffffff;
+    background: #1389CE;
+}
+
+/*! links */
+a { 
+    color: #1389ce; 
+    text-decoration: none; 
+}
+
+a:hover,
+a:focus { 
+    text-decoration: underline;
+}
+
+
+/*! pargraphs */
+p { 
+    font-size: 15px; 
+    line-height: 1.5; 
+    margin: 0 0 25px;
+}
+
+/*! lists */
+ul { 
+    margin: 10px 0 20px 20px; 
+    padding: 0;
+}
+
+li, dd, li p { 
+    font-size: 15px; 
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+}
+
+li { 
+    list-style-position: inside; 
+}
+
+li ul,
+li ol { 
+    margin: 0 0 5px 20px;
+}
+
+dl { 
+    margin: 7px 0 21px 0; 
+}
+
+dt { 
+    font-weight: bold; 
+}
+
+dd { 
+    margin: 5px 0 10px 20px; 
+}
+
+/*! headers */
+h1 { 
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 10px; 
+    margin-top: 0;
+    letter-spacing: -1px;
+    color:rgb(3, 91, 136);
+}
+
+h1 + p {
+    margin-top: 30px;
+}
+
+h2 { 
+    font-size: 28px; 
+    line-height: 30px; 
+    margin: 40px 0 20px;
+    border-top: 1px solid #eee;
+    padding-top: 29px;
+    letter-spacing: -1px;
+    color: rgb(3, 91, 136); 
+}
+
+h3 { 
+    font-size: 20px; 
+    line-height: 20px; 
+    margin: 30px 0 10px;
+    color: #181c1d; 
+}
+
+h4 { 
+    font-size: 16px; 
+    margin-bottom: 14px; 
+    line-height: 21px;
+}
+
+h5 { 
+    font-size: 14px; 
+    line-height: 14px; 
+    margin-bottom: 7px;
+}
+
+h6 {
+    font-size: 12px; 
+    line-height: 15px; 
+    margin-bottom: 10px; 
+}
+
+/*! images */
+img {
+    max-width: 100%;
+}
+
+/*! code */
+pre { 
+    margin: 20px 0 30px; 
+    font: 13px/20px Monaco, 'Bitstream Vera Sans Mono',  'Courier New', monospace; 
+    background-color: #f6f7f8;
+    border: 1px solid #e9eaed;
+    padding: 14px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    overflow-x: scroll;
+    color: #4E5661;
+}
+
+pre code { 
+    background: none; 
+    font-weight: normal;
+    padding: 0;
+}
+    
+code {
+    font: 13px/15px Monaco, 'Bitstream Vera Sans Mono', Courier, monospace;
+    background: #ecf0f1;
+    padding: 2px;
+}
+
+code a { 
+    color: #4E5661; 
+}
+
+/*! quotes */
+blockquote { 
+    position: relative;
+    margin: 28px 0; 
+    padding: 14px 14px 0 38px; 
+    background: #f8f9fa;
+    overflow: hidden;
+}
+
+blockquote:before {
+    display: block;
+    
+    position: absolute;
+    left: 9px;
+    top: 18px;
+    
+    font-size: 48px;
+    color: #88A79E;
+    
+    content: "\201C";
+}
+
+blockquote h1,
+blockquote h2,
+blockquote h3,
+blockquote h4,
+blockquote h5,
+blockquote h6 { 
+    font-style: italic; color: #627871; 
+}
+
+blockquote h4 { 
+    font-size: 18px; 
+}
+
+blockquote p { 
+    font-style: italic; 
+    font-size: 14px; 
+    color: #667D76; 
+}
+
+/*! tables */
+table { 
+    border-collapse: collapse; 
+    width: 100%; 
+    background-color: #fafafa; 
+    margin-bottom: 28px;
+    border: 1px solid #c3cdca;
+}
+
+table tr:nth-child(even) { 
+    background: #eef4f6; 
+}
+
+table caption { 
+    text-align: left; 
+    font-weight: bold; 
+    font-size: 18px; 
+    line-height: 21px; 
+}
+
+table thead { 
+    background: #fafafa;
+}
+    table thead th {
+        padding: 7px 10px 6px;
+        font-size: 15px;
+        text-align: left;
+        border-right: 1px solid #c3cdca;
+    }
+    
+table tbody tr { 
+    border-top: 1px solid #c3cdca; 
+}
+
+table td { 
+    font-size: 15px; 
+    line-height: 21px;
+    padding: 7px;
+    border-right: 1px solid #c3cdca;
+}
