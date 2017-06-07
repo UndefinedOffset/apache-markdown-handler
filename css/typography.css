@@ -42,8 +42,8 @@ li, dd, li p {
     line-height: 1.5;
 }
 
-li { 
-    list-style-position: inside; 
+li {
+    list-style-position: outside;
 }
 
 li ul,
@@ -138,7 +138,7 @@ pre code {
     
 code {
     font: 13px/15px Monaco, 'Bitstream Vera Sans Mono', Courier, monospace;
-    background: #ecf0f1;
+    background: #E3E7E8;
     padding: 2px;
 }
 
