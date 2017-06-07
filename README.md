@@ -9,3 +9,12 @@ To install simply run ``composer install`` in the root of the apache markdown ha
 Action markdown /path/to/markdown-handler/handler.php
 AddHandler markdown .md
 ```
+
+## Controlling the Browser Title
+There are 3 ways the browser title is decided from the markdown:
+1. Title meta data, you can define a title using the title meta data. For this to work the first line of your markdown must be like the following:
+    ```md
+    title: My Title
+    ```
+2. If the first line of the rendered markdown is an ``<h1>`` tag the value of that tag will be used.
+3. If none of the above find a title then the file name is used, all dashes and underscores in the name are replaced with spaces, the file extension is removed and then each word is set to it's proper case. Meaning ``my-example-markdown.md`` would become ``My Example Markdown`` as the browser title.
